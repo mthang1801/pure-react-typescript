@@ -1,6 +1,6 @@
 
 import { EMAIL, EMPTY, PASSWORD, PHONE, PHONEANDEMAIL, TEXT, URL } from './constants';
-import { IRootReducers } from './services/interfaces/root.interfaces';
+import { IRootReducers } from 'src/cores/interfaces/root.interfaces';
 
 export interface AppState extends IRootReducers { };
 
@@ -28,19 +28,21 @@ export type typeInput =
   | typeof PHONEANDEMAIL
 
 export interface RouteParams {
-  id: string
+  id: string;
+  id1: string;
+  id2: string;
+  id3: string;
 }
 
 export type typeButtonUI =
   | 'default'
-  | 'cms'
+  | 'ddv'
   | 'primary'
   | 'secondary'
   | 'danger'
   | 'light'
   | 'green'
   | 'secondGreen'
-  | 'dark'
 
 export interface IPaging {
   currentPage: number;
@@ -51,4 +53,5 @@ export interface IPagingNotPrefer {
   currentPage?: number;
   sizePage?: number;
   isDispatch?: boolean;
+  total?: number;
 }

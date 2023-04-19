@@ -168,3 +168,5 @@ Instagram: <https://instagram.com/creativetimofficial>
 
 
 npx rimraf ./**/node_modules
+npm i -D react-error-overlay@6.0.9
+npm fund

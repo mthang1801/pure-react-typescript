@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 
 const SvgUploadImageBlock = (props) => (
 	<svg
@@ -11,8 +11,16 @@ const SvgUploadImageBlock = (props) => (
 	>
 		<path fill="url(#pattern0)" fillOpacity="0.5" d="M0 0H447V272H0z"></path>
 		<defs>
-			<pattern id="pattern0" width="1" height="1" patternContentUnits="objectBoundingBox">
-				<use transform="matrix(.002 0 0 .0033 0 0)" xlinkHref="#image0_976_4451"></use>
+			<pattern
+				id="pattern0"
+				width="1"
+				height="1"
+				patternContentUnits="objectBoundingBox"
+			>
+				<use
+					transform="matrix(.002 0 0 .0033 0 0)"
+					xlinkHref="#image0_976_4451"
+				></use>
 			</pattern>
 			<image
 				id="image0_976_4451"

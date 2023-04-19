@@ -1,27 +1,13 @@
 // import { ILanguage, IThemeName } from "src/services/interfaces/global.interfaces";
-import {
-	ILanguage,
-	IThemeName
-} from "../../services/interfaces/global.interfaces";
+import { ILanguage, IThemeName } from "src/cores/interfaces/global.interfaces";
 
-const ACCOUNT = "ACCOUNT";
-const TOKEN = "TOKEN";
-const LANGUAGE = "LANGUAGE";
-const THEME = "THEME";
-const ACCOUNT_LOGIN = "ACCOUNT_LOGIN";
-const MENU = "MENU";
-const AUTH_UUID = "AUTH_UUID";
-
-export enum STORAGE_SERVICE {
-	"FEATURES" = "FEATURES",
-	"ACCOUNT" = "ACCOUNT",
-	"TOKEN" = "TOKEN",
-	"LANGUAGE" = "LANGUAGE",
-	"THEME" = "THEME",
-	"ACCOUNT_LOGIN" = "ACCOUNT_LOGIN",
-	"MENU" = "MENU",
-	"AUTH_UUID" = "AUTH_UUID"	
-}
+const ACCOUNT = 'ACCOUNT';
+const TOKEN = 'TOKEN';
+const LANGUAGE = 'LANGUAGE';
+const THEME = 'THEME';
+const ACCOUNT_LOGIN = 'ACCOUNT_LOGIN';
+const MENU = 'MENU';
+const AUTH_UUID = 'AUTH_UUID';
 
 /****************************START**************************/
 /*                          Acccount                       */
@@ -58,24 +44,6 @@ export function localRemoveToken() {
 /**************************** END **************************/
 
 /****************************START**************************/
-/*                           Features                       */
-
-export function localSaveFeatures(features: string[]) {
-	features = features.filter(featureItem => featureItem)
-  return localStorage.setItem(STORAGE_SERVICE.FEATURES, JSON.stringify(features));
-}
-
-export function localGetFeatures() {
-  return localStorage.getItem(STORAGE_SERVICE.FEATURES);
-}
-
-export function localRemoveFeatures() {
-  return localStorage.removeItem(STORAGE_SERVICE.FEATURES);
-}
-
-/**************************** END **************************/
-
-/****************************START**************************/
 /*                         Language                        */
 
 export function localSaveLanguage(params: ILanguage) {
@@ -85,9 +53,9 @@ export function localSaveLanguage(params: ILanguage) {
 export function localGetLangage(): ILanguage {
   //string
   let localLanguage = localStorage.getItem(LANGUAGE);
-  let result: ILanguage = "en";
+  let result: ILanguage = 'en';
   //convert to type light or dark
-  if (localLanguage === "fr" || localLanguage === "vi") {
+  if (localLanguage === 'fr' || localLanguage === 'vi') {
     result = localLanguage;
   }
   return result;
@@ -109,12 +77,12 @@ export function localSaveTheme(params: IThemeName) {
 export function localGetTheme(): IThemeName {
   //string
   let localTheme = localStorage.getItem(THEME);
-  let result: IThemeName = "light";
+  let result: IThemeName = 'light';
   //convert to type light or dark
-  if (localTheme === "light" || localTheme === "dark") {
+  if (localTheme === 'light' || localTheme === 'dark') {
     result = localTheme;
   }
-  return result;
+  return result
 }
 
 export function localRemoveTheme() {

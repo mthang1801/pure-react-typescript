@@ -1,0 +1,85 @@
+@use "index" as *;
+.btn-default{
+    @include button($main1,$main2,$white,4.5rem,1.4rem,.2rem,0,2rem);
+    @include responsive(xsmall){
+      @include button($main1,$main2,$white,4rem,1.3rem,.2rem,0,2rem)
+    }
+}
+
+.btn-orange{
+  @include button(#ef7575,#ef7575,$white,4.5rem,1.4rem,.2rem,0,6rem)
+  
+}
+
+.btn-orange:hover{
+  background: black;
+  
+}
+
+
+.btn-dark{
+    @include button($blackDark,$blackDark,$white,4.5rem,1.4rem,.4rem,0,2rem);
+    letter-spacing: .1rem;
+}
+
+.btn-dark-sm{
+    @include button($blackDark,$blackDark,$white,4rem,1.3rem,.4rem,0,1.5rem);
+    letter-spacing: .1rem;
+}
+
+.btn-white{
+    @include button($white,$white,$black,3rem,1.2rem,.3rem,0,2rem);
+    letter-spacing: .1rem;
+}
+
+.ctrl {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1px;
+    font-size: 14px;
+    margin-bottom: 2rem;
+  }
+  
+  .ctrl__counter {
+    width: 75px;
+    height:37px;
+    color: #333C48;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+
+  .ctrl__counter-input {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    color: #333C48;
+    font-size: 14px;
+    line-height: 37px;
+    text-align: center;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .ctrl__button {
+    width: 37px;
+    line-height: 37px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #8498a7;
+  }
+  
+  
+  .ctrl__button--decrement { border-radius: 1px 0 0 1px; }
+  
+  .ctrl__button--increment { border-radius: 0 1px 1px 0; }
+
+ 

@@ -1,0 +1,19 @@
+.popover__account {
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+  button {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.ant-popover-inner-content{
+	padding: 0 !important;
+}

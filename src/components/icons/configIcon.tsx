@@ -1,0 +1,208 @@
+import SvgBanner from "src/assets/svg/SvgBanner";
+import SvgComplete from "src/assets/svg/SvgComplete";
+import SvgDashboard from "src/assets/svg/SvgDashboard";
+import SvgGiftAccessory from "src/assets/svg/SvgGiftAccessory";
+import SvgGroupUser from "src/assets/svg/SvgGroupUser";
+import SvgIcon3Dot from "src/assets/svg/SvgIcon3Dot";
+import SvgIcon6Dot from "src/assets/svg/SvgIcon6Dot";
+import SvgIconBan from "src/assets/svg/SvgIconBan";
+import SvgIconBanners from "src/assets/svg/SvgIconBanners";
+import SvgIconBrand from "src/assets/svg/SvgIconBrand";
+import SvgIconCancel from "src/assets/svg/SvgIconCancel";
+import SvgIconClose from "src/assets/svg/SvgIconClose";
+import SvgIconConfirm from "src/assets/svg/SvgIconConfirm";
+import SvgIconCreateBill from "src/assets/svg/SvgIconCreateBill";
+import SvgIconCustomer from "src/assets/svg/SvgIconCustomer";
+import SvgIconDelete from "src/assets/svg/SvgIconDelete";
+import SvgIconDesktop_1 from "src/assets/svg/SvgIconDesktop_1";
+import SvgIconDisplay from "src/assets/svg/SvgIconDisplay";
+import SvgIconDown from "src/assets/svg/SvgIconDown";
+import SvgIconEdit from "src/assets/svg/SvgIconEdit";
+import SvgIconEmail from "src/assets/svg/SvgIconEmail";
+import SvgIconExpand1 from "src/assets/svg/SvgIconExpand1";
+import SvgIconExpand2 from "src/assets/svg/SvgIconExpand2";
+import SvgIconExportFile from "src/assets/svg/SvgIconExportFile";
+import SvgIconExtraCategory from "src/assets/svg/SvgIconExtraCategory";
+import SvgIconFilter from "src/assets/svg/SvgIconFilter";
+import SvgIconFlashSale from "src/assets/svg/SvgIconFLashSale";
+import SvgIconGift from "src/assets/svg/SvgIconGift";
+import SvgIconGroupBy from "src/assets/svg/SvgIconGroupBy";
+import SvgIconHeartPlus from "src/assets/svg/SvgIconHeartPlus";
+import SvgIconHide from "src/assets/svg/SvgIconHide";
+import SvgIconImportFile from "src/assets/svg/SvgIconImportFile";
+import SvgIconInstallment from "src/assets/svg/SvgIconInstallment";
+import SvgIconKey from "src/assets/svg/SvgIconKey";
+import SvgIconKOL from "src/assets/svg/SvgIconKOL";
+import SvgIconLandingPage from "src/assets/svg/SvgIconLandingPage";
+import SvgIconListProduct from "src/assets/svg/SvgIconListProduct";
+import SvgIconListProduct2 from "src/assets/svg/SvgIconListProduct2";
+import SvgIconLock from "src/assets/svg/SvgIconLock";
+import SvgIconMenu from "src/assets/svg/SvgIconMenu";
+import SvgIconMessage from "src/assets/svg/SvgIconMessage";
+import SvgIconMessageWarning from "src/assets/svg/SvgIconMessageWarning";
+import SvgIconMobile from "src/assets/svg/SvgIconMobile";
+import SvgIconModules from "src/assets/svg/SvgIconModules";
+import SvgIconMoveBottom2 from "src/assets/svg/SvgIconMoveBottom2";
+import SvgIconMoveLeft from "src/assets/svg/SvgIconMoveLeft";
+import SvgIconMoveLeft2 from "src/assets/svg/SvgIconMoveLeft2";
+import SvgIconMoveLeft3 from "src/assets/svg/SvgIconMoveLeft3";
+import SvgIconMoveRight from "src/assets/svg/SvgIconMoveRight";
+import SvgIconMoveRight2 from "src/assets/svg/SvgIconMoveRight2";
+import SvgIconMoveRight3 from "src/assets/svg/SvgIconMoveRight3";
+import SvgIconMoveTop from "src/assets/svg/SvgIconMoveTop";
+import SvgIconMoveTopDouble from "src/assets/svg/SvgIconMoveTopDouble";
+import SvgIconNews from "src/assets/svg/SvgIconNews";
+import SvgIconPaint from "src/assets/svg/SvgIconPaint";
+import SvgIconPhone from "src/assets/svg/SvgIconPhone";
+import SvgIconPlay from "src/assets/svg/SvgIconPlay";
+import SvgIconPlus from "src/assets/svg/SvgIconPlus";
+import SvgIconProductChildren from "src/assets/svg/SvgIconProductChildren";
+import SvgIconProductCombo from "src/assets/svg/SvgIconProductCombo";
+import SvgIconProductParent from "src/assets/svg/SvgIconProductParent";
+import SvgIconRatingSuccess from "src/assets/svg/SvgIconRatingSuccess";
+import SvgIconRecycleBin from "src/assets/svg/SvgIconRecycleBin";
+import SvgIconRefresh from "src/assets/svg/SvgIconRefresh";
+import SvgIconRemove from "src/assets/svg/SvgIconRemove";
+import SvgIconReopen from "src/assets/svg/SvgIconReopen";
+import SvgIconRepMessage from "src/assets/svg/SvgIconRepMessage";
+import SvgIconReview from "src/assets/svg/SvgIconReview";
+import SvgIconSearch from "src/assets/svg/SvgIconSearch";
+import SvgIconSetting from "src/assets/svg/SvgIconSetting";
+import SvgIconSitemaps from "src/assets/svg/SvgIconSitemaps";
+import SvgIconStar from "src/assets/svg/SvgIconStar";
+import { default as SvgIconStorage, default as SvgStorege } from "src/assets/svg/SvgIconStorage";
+import SvgIconTagPromo from "src/assets/svg/SvgIconTagPromo";
+import SvgIconTagRemove from "src/assets/svg/SvgIconTagRemove";
+import SvgIconThreedot2 from "src/assets/svg/SvgIconThreedot2";
+import SvgIconThreedot3 from "src/assets/svg/SvgIconThreedot3";
+import SvgIconThreedot4 from "src/assets/svg/SvgIconThreedot4";
+import SvgIconThumpnails from "src/assets/svg/SvgIconThumpnails";
+import SvgIconTrend from "src/assets/svg/SvgIconTrend";
+import SvgIconUpload from "src/assets/svg/SvgIconUpload";
+import SvgIconWallet from "src/assets/svg/SvgIconWallet";
+import SvgIconWarning from "src/assets/svg/SvgIconWarning";
+import SvgNewIcon from "src/assets/svg/SvgNewIcon";
+import SvgOldCollectionNew from "src/assets/svg/SvgOldCollectionNew";
+import SvgPreOrder from "src/assets/svg/SvgPreOrder";
+import SvgIconProductSingle from "src/assets/svg/SvgProductSingle";
+import SvgPromotionAccessory from "src/assets/svg/SvgPromotionAccessory";
+import SvgRedirectLink from "src/assets/svg/SvgRedirectLink";
+import SvgSale from "src/assets/svg/SvgSale";
+import SvgTransUnit from "src/assets/svg/SvgTransUnit";
+import SvgUserSetting from "src/assets/svg/SvgUseSetting";
+import { typeIconUI } from "./typesIcon";
+const CONFIG_ICON = (icon: typeIconUI, fill?: string) => {
+	return {
+		default: null,
+		storage: <SvgIconStorage fill={fill} />,
+		plus: <SvgIconPlus fill={fill} />,
+		setting: <SvgIconSetting fill={fill} />,
+		trash: <SvgIconDelete fill={fill} />,
+		show: <SvgIconDisplay fill={fill} />,
+		hide: <SvgIconHide fill={fill} />,
+		groupBy: <SvgIconGroupBy fill={fill} />,
+		filter: <SvgIconFilter fill={fill} />,
+		importFile: <SvgIconImportFile fill={fill} />,
+		exportFile: <SvgIconExportFile fill={fill} />,
+		productParent: <SvgIconProductParent fill={fill} />,
+		productChild: <SvgIconProductChildren fill={fill} />,
+		productCombo: <SvgIconProductCombo fill={fill} />,
+		productSingle: <SvgIconProductSingle fill={fill} />,
+		expand1: <SvgIconExpand1 fill={fill} />,
+		expand2: <SvgIconExpand2 fill={fill} />,
+		newIcon: <SvgNewIcon fill={fill} />,
+		remove: <SvgIconRemove fill={fill} />,
+		ban: <SvgIconBan fill={fill} />,
+		key: <SvgIconKey fill={fill} />,
+		lock: <SvgIconLock fill={fill} />,
+		threeDot: <SvgIcon3Dot fill={fill} />,
+		threeDot2: <SvgIconThreedot2 fill={fill} />,
+		threeDot3: <SvgIconThreedot3 fill={fill} />,
+		threeDot4: <SvgIconThreedot4 fill={fill} />,
+		edit: <SvgIconEdit fill={fill} />,
+		moveLeft: <SvgIconMoveLeft fill={fill} />,
+		recycleBin: <SvgIconRecycleBin fill={fill} />,
+		search: <SvgIconSearch fill={fill} />,
+		upload: <SvgIconUpload fill={fill} />,
+		play: <SvgIconPlay fill={fill} />,
+		completed: <SvgComplete fill={fill} />,
+		moveRight2: <SvgIconMoveRight2 fill={fill} />,
+		moveLeft3: <SvgIconMoveLeft3 fill={fill} />,
+		moveRight3: <SvgIconMoveRight3 fill={fill} />,
+		moveBottom2: <SvgIconMoveBottom2 fill={fill} />,
+		refresh: <SvgIconRefresh fill={fill} />,
+		listProduct: <SvgIconListProduct fill={fill} />,
+		listProduct2: <SvgIconListProduct2 fill={fill} />,
+		moveTop: <SvgIconMoveTop fill={fill} />,
+		moveTopDouble: <SvgIconMoveTopDouble fill={fill} />,
+		flashSale: <SvgIconFlashSale fill={fill} />,
+		gift: <SvgIconGift fill={fill} />,
+		sale: <SvgSale fill={fill} />,
+		moveRight: <SvgIconMoveRight fill={fill} />,
+		sixDot: <SvgIcon6Dot fill={fill} />,
+		tagPromo: <SvgIconTagPromo fill={fill} />,
+		cancel: <SvgIconCancel fill={fill} />,
+		review: <SvgIconReview fill={fill} />,
+		message: <SvgIconMessage fill={fill} />,
+		ratingSuccess: <SvgIconRatingSuccess fill={fill} />,
+		repMessage: <SvgIconRepMessage fill={fill} />,
+		star: <SvgIconStar fill={fill} />,
+		warning: <SvgIconWarning fill={fill} />,
+		paint: <SvgIconPaint fill={fill} />,
+		close: <SvgIconClose fill={fill} />,
+		reopen: <SvgIconReopen fill={fill} />,
+		confirm: <SvgIconConfirm fill={fill} />,
+		messageWarning: <SvgIconMessageWarning fill={fill} />,
+		landingPage: <SvgIconLandingPage fill={fill} />,
+		tagRemove: <SvgIconTagRemove fill={fill} />,
+		banners: <SvgIconBanners fill={fill} />,
+		desktop_1: <SvgIconDesktop_1 fill={fill} />,
+		extraCategory: <SvgIconExtraCategory fill={fill} />,
+		heartPlus: <SvgIconHeartPlus fill={fill} />,
+		KOL: <SvgIconKOL fill={fill} />,
+		mobile: <SvgIconMobile fill={fill} />,
+		modules: <SvgIconModules ill={fill} />,
+		news: <SvgIconNews fill={fill} />,
+		trend: <SvgIconTrend fill={fill} />,
+		moveLeft2: <SvgIconMoveLeft2 fill={fill} />,
+
+		down: <SvgIconDown fill={fill} />,
+		menu_dashboard: <SvgDashboard fill={fill} />,
+		brand: <SvgIconBrand fill={fill} />,
+
+		menu_create_bill: <SvgIconCreateBill fill={fill} />,
+		menu_list_order: <SvgIconListProduct fill={fill} />,
+		menu_list_product: <SvgIconPhone fill={fill} />,
+		menu_list_category: <SvgIconMenu fill={fill} />,
+		menu_list_features: <SvgIconSetting fill={fill} />,
+		menu_list_promotion_accessory: <SvgPromotionAccessory fill={fill} />,
+		menu_list_gift_accessory: <SvgGiftAccessory fill={fill} />,
+		menu_list_promotion: <SvgSale fill={fill} />,
+		menu_list_banner: <SvgBanner fill={fill} />,
+		menu_list_flash_sale: <SvgIconFlashSale fill={fill} />,
+		menu_list_store: <SvgStorege fill={fill} />,
+		menu_list_wallet: <SvgIconWallet fill={fill} />,
+		menu_list_email: <SvgIconEmail fill={fill} />,
+		menu_list_thumbnails: <SvgIconThumpnails fill={fill} />,
+		menu_list_sitemaps: <SvgIconSitemaps fill={fill} />,
+		menu_list_installment: <SvgIconInstallment fill={fill} />,
+		menu_list_order_status: <SvgIconListProduct fill={fill} />,
+		menu_list_transport_unit: <SvgTransUnit fill={fill} />,
+		menu_list_shipping_fee: <SvgTransUnit fill={fill} />,
+		menu_list_preorder: <SvgPreOrder fill={fill} />,
+		menu_list_reviews_comments: <SvgIconMessage fill={fill} />,
+		menu_list_home_config: <SvgIconPaint fill={fill} />,
+		menu_list_restricted_keywords: <SvgIconMessageWarning fill={fill} />,
+		menu_list_landding_page: <SvgIconLandingPage fill={fill} />,
+
+		menu_list_trade_in_programs: <SvgOldCollectionNew fill={fill} />,
+		menu_list_old_receipts: <SvgIconListProduct fill={fill} />,
+
+		menu_list_customer: <SvgIconCustomer fill={fill} />,
+		menu_list_user_system: <SvgUserSetting fill={fill} />,
+		menu_list_user_group: <SvgGroupUser fill={fill} />,
+		menu_list_redirect_link: <SvgRedirectLink fill={fill} />
+	};
+};
+
+export default CONFIG_ICON;

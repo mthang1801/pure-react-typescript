@@ -1,0 +1,114 @@
+@use "../abstracts" as *;
+
+.installStore {
+	&__create {
+		&__body {
+			display: flex;
+			justify-content: space-between;
+			&__left {
+				width: calc(72% - 8px);
+
+				min-height: 100px;
+				&__information {
+					background: #fff;
+					padding: 16px;
+					border-radius: 5px;
+					&__add {
+						display: flex;
+						justify-content: space-between;
+						.ant-form-item {
+							width: calc((100% - 200px) / 3);
+						}
+					}
+					&__showProduct {
+						position: relative;
+						margin-top: 2px;
+						&__table {
+							position: absolute;
+
+							z-index: 101;
+							padding: 6px;
+							width: 500px;
+							background: #fff;
+							border: 1px solid #999999;
+							border-radius: 5px;
+							&__add {
+								display: flex;
+								align-items: center;
+								width: 100%;
+								background: $primary_color_1_1;
+								padding: 2px;
+							}
+						}
+					}
+				}
+			}
+			&__right {
+				width: calc(28% - 8px);
+				min-height: 100px;
+				&__information {
+					background: #fff;
+					padding: 16px;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+
+	&__edit {
+		&__status {
+		}
+		&__body {
+			margin-top: 16px;
+			display: flex;
+			justify-content: space-between;
+			&__left {
+				width: calc(72% - 8px);
+
+				min-height: 100px;
+				&__information {
+					background: #fff;
+					padding: 16px;
+					border-radius: 5px;
+					&__add {
+						display: flex;
+						justify-content: space-between;
+						.ant-form-item {
+							width: calc((100% - 200px) / 3);
+						}
+					}
+					&__showProduct {
+						position: relative;
+						margin-top: 2px;
+						&__table {
+							position: absolute;
+							top: calc(100% + 4px);
+							z-index: 101;
+							padding: 6px;
+							width: 500px;
+							background: #fff;
+							border: 1px solid #999999;
+							border-radius: 5px;
+							&__add {
+								display: flex;
+								align-items: center;
+								width: 100%;
+								background: $primary_color_1_1;
+								padding: 2px;
+							}
+						}
+					}
+				}
+			}
+			&__right {
+				width: calc(28% - 8px);
+				min-height: 100px;
+				&__information {
+					background: #fff;
+					padding: 16px;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+}
